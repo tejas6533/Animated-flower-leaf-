@@ -1,0 +1,156 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    animation: floweranimation 10s linear 0s infinite;
+}
+@keyframes floweranimation{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}
+.parent > div{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.common{
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    opacity: 0.5;
+    transform-origin: right bottom;
+}
+.leaf1{
+    background-color: orange;
+    transform: rotateZ(0deg);
+}
+.leaf2{  
+    background-color: blue;
+    transform: rotateZ(11.25deg);
+}
+.leaf3{
+    background-color:palegreen;
+    transform: rotateZ(22.50deg);
+}
+.leaf4{
+    background: fuchsia;
+    transform: rotateZ(33.75deg);
+}
+.leaf5{
+    background: slateblue;
+    transform: rotateZ(45deg);
+}
+.leaf6{
+    background: lime;
+    transform: rotateZ(56.25deg);
+}
+.leaf7{
+    background: seagreen;
+    transform: rotateZ(67.50deg);
+}
+.leaf8{
+    background: cornflowerblue;
+    transform: rotateZ(78.30deg);
+}
+.leaf9{
+    background: teal;
+    transform: rotateZ(89.55deg);
+}
+.leaf10{
+    background: aqua;
+    transform: rotateZ(99.80deg);
+}
+.leaf11{
+    background: aquamarine;
+    transform: rotateZ(111.05deg);
+}
+.leaf12{
+    background: hotpink;
+    transform: rotateZ(122.30deg);
+}
+.leaf13{
+    background: green;
+    transform: rotateZ(133.55deg);
+}
+.leaf14{
+    background: firebrick;
+    transform: rotateZ(144.80deg);
+}
+.leaf15{
+    background: maroon;
+    transform: rotateZ(156.05deg);
+}
+.leaf16{
+    background: midnightblue;
+    transform: rotateZ(167.30deg);
+}
+.leaf17{
+    background: mediumspringgreen;
+    transform: rotateZ(178.55deg);
+}
+.leaf18{
+    background: navajowhite;
+    transform: rotateZ(189.80deg);
+}
+.leaf19{
+    background: mediumslateblue;
+    transform: rotateZ(201.05deg);
+}
+.leaf20{
+    background: lightseagreen;
+    transform: rotateZ(212.30deg);
+}
+.leaf21{
+    background: mediumorchid;
+    transform: rotateZ(223.55deg);
+}
+.leaf22{
+    background: darkgrey;
+    transform: rotateZ(234.80deg);
+}
+.leaf23{
+    background: darkmagenta;
+    transform: rotateZ(246.05deg);
+}
+.leaf24{
+    background: plum;
+    transform: rotateZ(257.30deg);
+}
+.leaf25{
+    background: khaki;
+    transform: rotateZ(268.55deg);
+}
+.leaf26{
+    background: yellowgreen;
+    transform: rotateZ(279.80deg);
+}
+.leaf27{
+    background: powderblue;
+    transform: rotateZ(291.05deg);
+}
+.leaf28{
+    background: chartreuse;
+    transform: rotateZ(302.30deg);
+}
+.leaf29{
+    background: lightcoral;
+    transform: rotateZ(313.55deg);
+}
+.leaf30{
+    background: violet;
+    transform: rotateZ(324.80deg);
+}
+.leaf31{
+    background: burlywood;
+    transform: rotateZ(336.05deg);
+}
+.leaf32{
+    background: tomato;
+    transform: rotateZ(347.30deg);
+}
